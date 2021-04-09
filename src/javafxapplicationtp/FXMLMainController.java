@@ -68,7 +68,7 @@ public class FXMLMainController implements Initializable {
         colPrenoms.setCellValueFactory(new PropertyValueFactory<>("prenoms"));
         colDateNaiss.setCellValueFactory(new PropertyValueFactory<>("datanaiss"));
         
-        datepicker.autosize();
+        
     }
 
 
